@@ -33,6 +33,9 @@ function wishes() {
 }
 
 ReactDOM.render(
-  <h1 style={colors}> {wish} </h1>,
+  <h1 className="heading" style={colors}>
+    {" "}
+    {wish}{" "}
+  </h1>,
   document.getElementById("root")
 );
